@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Yaml coherence check
-        run: ansible-playbook create-nas.yml --syntax-check
+        run: ansible-playbook nasify.yml --syntax-check
