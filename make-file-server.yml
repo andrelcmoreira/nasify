@@ -1,6 +1,6 @@
 ---
 
-- name: Create NAS
+- name: Make file server
   hosts: all
   vars:
     shared_folder: nfs/public
